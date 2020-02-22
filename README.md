@@ -17,7 +17,9 @@ An example Python script is given: [ExamplePYTHONscript.py](https://github.com/D
 
 4. You can see in the folder "C:\zGithub\" that automated TRNSYS output results will be saved in an order. 
 
-The main idea behind this Python script is simple, change parameter values in the deck file (in this case: [ExampleTRNSYSmodel.dck](https://github.com/DrTol/TRNSYSfromPython/blob/master/ExampleTRNSYSmodel.dck) and ask the TRNSYS to run the simulation/s as to this deck file/s. Keep in mind that for your case you need to dublicate (copy & paste) your .dck file in order to create a template .dck file. Then, change the parameters to be changed by Python to some tag names, such as the case in [z_pyt_TEMPLATE.dck](https://github.com/DrTol/TRNSYSfromPython/blob/master/z_pyt_TEMPLATE.dck) - check the lines 98 - 101 there:
+The main idea behind this Python script is simple, change parameter values in the deck file (in this case: [ExampleTRNSYSmodel.dck](https://github.com/DrTol/TRNSYSfromPython/blob/master/ExampleTRNSYSmodel.dck) and ask the TRNSYS to run the simulation/s as to this deck file/s. However:
+
+Keep in mind that for your case you need to dublicate (copy & paste) your original .dck file at the first time in order to create a template .dck file. Then, change the parameter values there to some tag names so that they can be found and replaced by Python , such as the case in [z_pyt_TEMPLATE.dck](https://github.com/DrTol/TRNSYSfromPython/blob/master/z_pyt_TEMPLATE.dck) - check the lines 98 - 101 there:
 
 ```
 t_on = pyt_t_on ! [hour] starting time of high operation
@@ -25,5 +27,14 @@ t_off = pyt_t_off ! [hour] end time of high operation
 s_high = pyt_s_high ! [-] control signal at high
 s_low = pyt_s_low ! [-] control signal at low
 ```
+These tags (pyt_t_on, pyt_t_off, pyt_s_high, pyt_s_low) are the parameters to be changed/varied from the Python script. 
 
+## License
+You are free to use, modify and distribute the code as long as the authorship is properly acknowledged.
 
+## Acknowledgement 
+In memory of my father Bekir Tol.
+
+Special thanks to Len Rijvers, PDEng for his great support.
+
+We would like to acknowledge all of the open-source minds in general for their willing of share (as apps or comments/answers in forums), which has encouraged our department to publish our tools developed.
