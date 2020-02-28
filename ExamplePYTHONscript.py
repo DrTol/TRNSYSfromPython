@@ -1,6 +1,5 @@
 ## This Python script runs automated TRNSYS simulation
-#   prepared by Hakan İbrahim Tol, PhD at TU/e on 22/02/2020
-#   thanks to Len Rijvers, PDEng
+#   prepared by Hakan İbrahim Tol, PhD and Len Rijvers, PDEng at TU/e on 22/02/2020
 
 #  Libraries Imported
 import subprocess           # to run the TRNSYS simulation
