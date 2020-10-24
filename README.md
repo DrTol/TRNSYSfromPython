@@ -33,7 +33,7 @@ These tags (pyt_t_on, pyt_t_off, pyt_s_high, pyt_s_low) are the parameters to be
 You are free to use, modify and distribute the code as long as the authorship is properly acknowledged.
 
 ## Acknowledgement 
-In memory of my father Bekir Tol.
+In memory of my mother Esma Tol and my father Bekir Tol.
 
 Special thanks to Len Rijvers, PDEng for his great support.
 
