@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F2F01JB1KE)
+
 # How to Run TRNSYS Simulations from Python
 This Python script  automates the running of the TRNSYS simulations. The aim here is to ease the running of several simulations of the same model for various different parameter values as might be required for parametric analysis, sensitivity analysis etc.
 
